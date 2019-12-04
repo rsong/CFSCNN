@@ -1,6 +1,8 @@
 # CFSCNN
 The source codes are based on matconvnet.
 
+Create a folder and name it data.
+
 Download the pretrained net from
 
 https://drive.google.com/open?id=1yc982kKOCVwr5OROoMCbx_qqGwLe_Wv4
