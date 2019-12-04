@@ -1,7 +1,7 @@
 # CFSCNN
 The source codes are based on matconvnet.
 
-Create a folder and name it data.
+Create a new folder 'data' and then create 3 subfolders 'deploynet', 'modelnet40' and 'models' in it.
 
 Download the pretrained net from
 
