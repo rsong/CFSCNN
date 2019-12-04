@@ -67,7 +67,7 @@ for i=1:length(mesh_filenames)
     end
    
     W=density(t,p);
-    imsvsas=zeros(length(p),nViews)+0.5;
+    imsvsas=zeros(length(p),nViews)+0.5; %0.5 should be fine tuned for different models within the range of [0,1].
     
     imsvsa=zeros(length(mesh.V),nViews);
     [a,b,c]=size(ims{1});
