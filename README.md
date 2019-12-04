@@ -27,7 +27,7 @@ https://drive.google.com/open?id=1jezzXXTUnySn0tTtpt41lP61o8r1c71N
 
 Save it in \data\models\
 
-2. Download the ModelNet40 datasets and render all of the models using render_views_of_all_meshes_in_a_folder.m and create_data.m in the utils folder. Then save the rendered images (including 40 folders) in \data\modelnet40.
+2. Download the ModelNet40 dataset and render all of the models using render_views_of_all_meshes_in_a_folder.m and create_data.m in the utils folder. Then save the rendered images (including 40 folders) in \data\modelnet40.
 
 3. Run run_train.m where the get_imdb function only need to be implemented at the first time of training.
 
