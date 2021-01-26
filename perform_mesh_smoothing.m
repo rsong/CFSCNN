@@ -36,7 +36,7 @@ n = max(face(:));
 if strcmp(type, 'combinatorial')
     %add diagonal
     W = triangulation2adjacency(face) + speye(n);
-    D = spdiags(full(sum(W,2).^(-1)),0,n,n);
+    D = spdiags(full(sum(W,2).^(-1)),0,double(n),double(n));
     W = D*W;
 else
     options.normalize=1;
