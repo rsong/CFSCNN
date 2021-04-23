@@ -11,7 +11,7 @@ Save the downloaded net file 'net-deployed.mat' in \data\deploynet\
 
 For a demo, simply implement the following lines in MATLAB command window
 
-setup;
+setup; % If the dependency libraries are not compiled on your ocmputer, please compile them first through the setup command (see setup.m for details);
 
 sa1 = cnn_output_fast('human.off');
 
